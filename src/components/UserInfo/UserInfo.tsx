@@ -33,7 +33,7 @@ export const UserInfo = ({blog, company, location, twitter}: UserInfoProps) => {
   ]
 
   return(
-  <div className={styles.userInfo}>
+  <div className={styles.userInfo} data-testid='user-info'>
     {items.map((item, index) => (
       <InfoItem {...item} key={index} />
     ))}

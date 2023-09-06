@@ -22,7 +22,8 @@
     "baseUrl": "./src"
   },
   "include": [
-    "src"
+    "src",
+    "./config/jest/setupTests.ts"
   ],
   "exclude": [
     "templates",

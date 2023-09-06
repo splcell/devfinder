@@ -10,12 +10,12 @@ const localDate = Intl.DateTimeFormat('en-GB', { //приводим дату, к
 })
 
 export const UserTitle = ({login, name, created}: UserTitleProps) => { 
-  const joinedDate = localDate.format(new Date(created))
+  // const joinedDate = localDate.format(new Date(created))
   return(
-  <div className={styles.userTitle}>
+  <div className={styles.userTitle} data-testid='card-title'>
     <h2>{name}</h2>
     <h3>{login}</h3>
-    <span>{joinedDate}</span>
+    {/* <span>{joinedDate}</span> */}
   </div>
 );
 }

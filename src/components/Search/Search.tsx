@@ -44,7 +44,7 @@ export const Search = ({hasError, onSubmit}: SearchProps) => {
       {hasError && (
         <div className={styles.error}>No results</div>
       )}
-      <Button>Search</Button>
+      <Button data-testid='btn'>Search</Button>
     </div>
   </form>
 );
