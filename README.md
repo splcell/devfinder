@@ -5,6 +5,8 @@
 <li>React-CLI</li>
 <li>CSS modules</li>
 <li>SCSS</li>
+<li>Jest</li>
+<li>React Testing Library</li>
 <br>
 API:
 <li>Github</li>
@@ -20,3 +22,4 @@ API:
 <li>Вывод дефолтных данных при загрузке сайта</li>
 <li>Обработка ошибки при некорректном поисковом запросе</li>
 <li>Адаптация под разные типы устройств</li>
+<li>Добавлены Unit-тесты для компонентов</li>
